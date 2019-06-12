@@ -1,0 +1,20 @@
+Pig game notes
+
+Classes:
+Player 
+Dice -> Roll
+Score (Turn)
+Score (Total)
+Turn
+Game (i.e just makes the players and begins the game [determines first player, etc.])
+
+
+while keep_rolling = True
+	player_choice = input("Enter nothing to roll; enter anything to hold"))
+	if player_choice = ""
+		turn_score = 0
+		turn_score += die.roll()
+	else player_choice != ""
+		#append turn_score to total_score#
+		keep_rolling = False
+
